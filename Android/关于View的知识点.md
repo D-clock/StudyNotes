@@ -24,9 +24,18 @@
 
 ```
 
+## View绘制流程和一些关键函数
+
+
+
 ## Scroller
 
 实现滑动效果处理的一大杀器
+
+两篇介绍Scroller不错的文章
+
+- [Android Scroller完全解析，关于Scroller你所需知道的一切](http://blog.csdn.net/guolin_blog/article/details/48719871)
+- [Android 带你从源码的角度解析Scroller的滚动实现原理](http://blog.csdn.net/xiaanming/article/details/17483273)
 
 ## ViewConfiguration
 
