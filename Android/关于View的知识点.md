@@ -26,6 +26,12 @@
 
 ## View绘制流程和一些关键函数
 
+确定View的位置：1、左上角坐标；2、宽高尺寸
+
+## MeasureSpec
+
+- MeasureSpec.EXACTLY：明确指定宽高，或者match_parent
+- MeasureSpec.AT_MOST：wrap_content
 
 
 ## Scroller
