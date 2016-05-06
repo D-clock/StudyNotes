@@ -27,7 +27,6 @@
 - dispatchTouchEvent：action_down不被消费，后续的事件都不会再传入了；
 - onInterceptTouchEvent：action_down、action_move都会被传入，确定是否拦截；
 
-- requestDisallowInterceptTouchEvent (boolean disallowIntercept)：
 
 ## MotionEvent
 
