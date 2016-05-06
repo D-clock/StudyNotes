@@ -24,9 +24,17 @@
 
 ```
 
-## View绘制流程和一些关键函数
+- dispatchTouchEvent：action_down不被消费，后续的事件都不会再传入了；
+- onInterceptTouchEvent：action_down、action_move都会被传入，确定是否拦截；
 
-确定View的位置：1、左上角坐标；2、宽高尺寸
+- requestDisallowInterceptTouchEvent (boolean disallowIntercept)：
+
+## MotionEvent
+
+**getAction()** 和 **getActionMasked()**的区别：
+
+- 单点触摸时，两者返回值一样；多点触摸时，两者返回值不一样；
+- getActionMasked()只返回事件类型，getAction()除了返回事件类型（低8位），还包含触点的Pointer信息（高8位）；
 
 ## MeasureSpec
 
