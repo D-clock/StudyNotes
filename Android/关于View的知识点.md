@@ -40,6 +40,7 @@
 - MeasureSpec.EXACTLY：明确指定宽高，或者match_parent
 - MeasureSpec.AT_MOST：wrap_content
 
+## 嵌套滑动机制 NestedScrolling
 
 ## Scroller
 
