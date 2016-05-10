@@ -42,6 +42,9 @@
 
 ## 嵌套滑动机制 NestedScrolling
 
+http://www.race604.com/android-nested-scrolling/
+https://segmentfault.com/a/1190000002873657
+
 ## Scroller
 
 实现滑动效果处理的一大杀器
