@@ -45,40 +45,42 @@ IntelliJ IDEA offers many ways to move effectively through the code without need
 
 One of the goals which the JetBrains team encourages to the users is that we have to use the mouse as less as possible. There are tons of actions and commands which allow working in a very effective way without leaving the hands from the keyboard gaining speed and accuracy.（[JetBrains](https://www.jetbrains.com/)团队的目标之一是鼓励用户尽可能减少使用鼠标的频率。有大量高效的操作命令，可以让你的双手在不需要离开键盘的情况下，变得更加高效精准。）
 
-### Find classes, files, and actions
+### Find classes, files, and actions （查找类、文件和操作）
 
-IntelliJ IDEA and, as the result, Android Studio offers solutions finding files, classes, actions.
+IntelliJ IDEA and, as the result, Android Studio offers solutions finding files, classes, actions.（IntelliJ IDEA，Android Studio提供了查找文件、类和操作的方案）
 
-**Search Everywhere - ⇧ + ⇧**
+**Search Everywhere - ⇧ + ⇧**（任意搜索 - ⇧ + ⇧）
 
-It shows a dialog for search all types of elements: classes, files, actions, etc. It's recommended to avoid this action and use the specific ones since search everywhere could be slower and expensive in term of your machine resources.
+It shows a dialog for search all types of elements: classes, files, actions, etc. It's recommended to avoid this action and use the specific ones since search everywhere could be slower and expensive in term of your machine resources.（这里会显示一个搜索所有类型元素的对话框：可查找类、文件、操作等。这里建议尽量避免使用这个操作，因为任意查找会使得你宝贵的电脑资源变得更加缓慢。）
 
-**Search types - ⌘ + O**
+**Search types - ⌘ + O**（搜索类型 - ⌘ + O）
 
 It allows finding enumerations, classes, interfaces, etc fastly.
+（它可以让你快速的搜索到枚举类型，类，接口等。）
 
-**Search files - ⌘ + ⇧ + O**
+**Search files - ⌘ + ⇧ + O**（搜索文件 - ⌘ + ⇧ + O）
 
 It allows finding every type of files, useful for XML files like layouts, resources, etc.
+（它可以让你搜索各种类型的文件，对像布局这样的xml文件，资源文件等同样有用。）
 
-**Search actions - ⇧ + ⌘ + o + A**
+**Search actions - ⇧ + ⌘ + o + A**（搜索操作 - ⇧ + ⌘ + o + A）呵呵呵哦呵呵呵
 
-It's possible to search and run actions from this feature, actions that live under menus, preferences, tool windows, etc, also suggests the shortcut of some actions, so, if you forget it you can fastly remind it searching for the action.
+It's possible to search and run actions from this feature, actions that live under menus, preferences, tool windows, etc, also suggests the shortcut of some actions, so, if you forget it you can fastly remind it searching for the action.（通过这个功能，你可能搜索并运行菜单、参数、工具窗口等，并且可以提出这些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索操作迅速的记起它们。）
 
 ![](http://saulmm.github.io/resources/studio/look_for_stuff.gif)
 
 **Bonus:**
 
-- It's not necessary to write the full name of whatever we are looking for. If we are searching for a class called CharacterDetailPresenter, we'll find it just typing CharacterPresenter.
+- It's not necessary to write the full name of whatever we are looking for. If we are searching for a class called CharacterDetailPresenter, we'll find it just typing CharacterPresenter.（这里不需要写出我们查找的每一个类的全称。假设我们正在查找CharacterDetailPresenter这个类，那就只需输入CharacterPresenter即可。）
 
-- We can go to a specific line looking for classes (⌘ + O) writing a colon and the number of the line after the searched class name, for example: CharacterDetailPresenter:50.
+- We can go to a specific line looking for classes (⌘ + O) writing a colon and the number of the line after the searched class name, for example: CharacterDetailPresenter:50.（搜索类（⌘ + O）的时候，我们可以通过在类名后面添加冒号和行数，来跳转类中指定的某一行里面，例如：CharacterDetailPresenter:50。）
 
-- If we type / on the beginning of the text of the file that we are looking for, we'll find folders. For example, with /land, the dialog will suggest the folders related to landscape configurations.
+- If we type / on the beginning of the text of the file that we are looking for, we'll find folders. For example, with /land, the dialog will suggest the folders related to landscape configurations.（如果我们搜索文件时，在文件名的开头加“/”，就可以找到与改名字相关的目录。例如：输入“/land”，对话框将会提示你和landscape相关的配置目录。）
 
-- We can filter the folder which contains the searched file, for example, values-es/strings.xml or values/strings.
+- We can filter the folder which contains the searched file, for example, values-es/strings.xml or values/strings.（我们可以筛选已被搜索出的文件的目录，例如，输入values-es/strings.xml 或者 values/strings。 ）
 
 
-**Project window - ⌘ + 1**
+### Project window - ⌘ + 1
 
 For browsing through the project files, a nice solution is to use the project window which can be shown or hidden with the shortcut ⌘ + 1.
 
