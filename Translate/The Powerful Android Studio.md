@@ -69,7 +69,7 @@ It's possible to search and run actions from this feature, actions that live und
 
 ![](http://saulmm.github.io/resources/studio/look_for_stuff.gif)
 
-**Bonus:**
+**Bonus:（福利：）**
 
 - It's not necessary to write the full name of whatever we are looking for. If we are searching for a class called CharacterDetailPresenter, we'll find it just typing CharacterPresenter.（这里不需要写出我们查找的每一个类的全称。假设我们正在查找CharacterDetailPresenter这个类，那就只需输入CharacterPresenter即可。）
 
@@ -80,184 +80,192 @@ It's possible to search and run actions from this feature, actions that live und
 - We can filter the folder which contains the searched file, for example, values-es/strings.xml or values/strings.（我们可以筛选已被搜索出的文件的目录，例如，输入values-es/strings.xml 或者 values/strings。 ）
 
 
-### Project window - ⌘ + 1
+### Project window - ⌘ + 1（项目窗口 - ⌘ + 1）
 
-For browsing through the project files, a nice solution is to use the project window which can be shown or hidden with the shortcut ⌘ + 1.
+For browsing through the project files, a nice solution is to use the project window which can be shown or hidden with the shortcut **⌘ + 1**.（对于浏览项目文件，有一个不错的方法是通过使用快捷键**⌘ + 1** 来隐藏或者显示我们的项目窗口。）
 
 ![](http://saulmm.github.com/resources/studio/show_panel_hide.gif)
 
-**Bonus:**
+**Bonus:（福利：）**
 
-- With ⌘ + ⇧ + ⟵ / ⟶, we can modify the size of the focused panel without using the mouse.
+- With ⌘ + ⇧ + ⟵ / ⟶, we can modify the size of the focused panel without using the mouse.（通过快捷键 **⌘ + ⇧ + ⟵ / ⟶**，我们可以在不用鼠标的情况下去改变当前所关注窗口的尺寸大小。）
 
-- We can perform searches writing the name of the file or folder that we are looking for right in the browser, it will highlight the matches and will restrict the positions selected with the arrows for these matches.
+- We can perform searches writing the name of the file or folder that we are looking for right in the browser, it will highlight the matches and will restrict the positions selected with the arrows for these matches.（在浏览界面中，我们可以输入想要查找的文件或目录的名字来执行搜索操作，查询到的匹配项将高亮显示，并且可以通过箭头选择指定的匹配项。）
 
-**Jump to navigation bar - ⌘ + ↑**
+**Jump to navigation bar - ⌘ + ↑ (跳转到导航栏 - ⌘ + ↑)**
 
-The navigation bar is an interesting element to interact with. Using it, we can navigate through the project files as we usually do with the project window. The shortcut ⌘ + ↑ displays the bar and puts the focus into it even if it's disabled.
+The navigation bar is an interesting element to interact with. Using it, we can navigate through the project files as we usually do with the project window. The shortcut **⌘ + ↑** displays the bar and puts the focus into it even if it's disabled.（导航栏是一个有趣的交互元素。使用它，我们可以浏览项目的文件如同我们经常在项目的窗口操作一样。即使导航栏被禁用了也能通过快捷键 **⌘ + ↑** 展示出导航栏，并把焦点放到上面。）
 
 ![](http://saulmm.github.com/resources/studio/jump_to_navigation_bar.gif)
 
-**Bonus:**
+**Bonus:（福利：）**
 
-- We can perform some file operations inside the navigation bar context, like create new files ⌘ + N or delete them ⌫.
+- We can perform some file operations inside the navigation bar context, like create new files **⌘ + N** or delete them **⌫**.（我们可以在导航栏的环境下执行某些文件操作，像通过快捷键 **⌘ + N** 创建新文件或者使用 **⌫** 删除它们。）
 
-## Show and hide windows
+## Show and hide windows（显示和隐藏窗口）
 
-There are different ways to manipulate windows: show and hide a single one, jump to the last active window giving it focus, restore the focus back to the editor when we are using a panel, etc.
+There are different ways to manipulate windows: show and hide a single one, jump to the last active window giving it focus, restore the focus back to the editor when we are using a panel, etc.（操纵这些窗口有不同的方式：显示和隐藏单个窗口，跳转到上一个活动窗口并使它获得焦点，当使用一个面板时恢复焦点到编辑器等。）
 
 ![](http://saulmm.github.io/resources/studio/panels_operations.gif)
 
-**Hide / Restore all windows - ⇧ + ⌘ + F12**
+**Hide / Restore all windows - ⇧ + ⌘ + F12 （显示或恢复所有窗口 - ⇧ + ⌘ + F12）**
 
-As its name indicates, it allows to hide and restore all visible windows.
+As its name indicates, it allows to hide and restore all visible windows.（如上所述，它能够让你隐藏和恢复所有的可见窗口。）
 
-**Jump to Last Tool Window - F12**
+**Jump to Last Tool Window - F12（跳转到上一个工具窗口 - F12）**
 
-Restores the visibility of the last window used, also puts the focus into that tool.
+Restores the visibility of the last window used, also puts the focus into that tool.（恢复显示上一个使用过的窗口，并使其获得焦点。）
 
-**Back to the editor**
+**Back to the editor（返回到编辑器）**
 
-When we have the focus in a window, we can back to the editor without using the mouse with the key ⎋.
+When we have the focus in a window, we can back to the editor without using the mouse with the key ⎋.（当我们的焦点在其中一个窗口里面，我们可以在不使用鼠标的情况下通过按键**⎋**返回到我们的编辑器中。）
 
-## Recently files
+## Recently files（最近打开过的文件）
 
-These three actions can help us to save time when we are working with a group of files:
+These three actions can help us to save time when we are working with a group of files:（当我们的工作需要和一堆文件打交道时，下面的操作（原文的three actions但实际上只有2个，估计是笔误）可以帮我们节约不少时间：）
 
-**Recently Files - ⌘ + E**
+**Recently Files - ⌘ + E（最近打开过的文件 - ⌘ + E）**
 
-It shows files that have been opened recently.
+It shows files that have been opened recently.（它可以显示出最近打开过的文件。）
 
-**Recently Changed Files - ⌘ + ⇧ + E**
+**Recently Changed Files - ⌘ + ⇧ + E（最近编辑过的文件 - ⌘ + ⇧ + E）**
 
-It shows files that have been opened and changed recently.
+It shows files that have been opened and changed recently.（它可以显示出最近打开编辑过的文件。）
 
 ![](http://saulmm.github.io/resources/studio/recent_files_recent_edited_files.gif)
 
-## Structure of a file
+## Structure of a file（一个文件的结构）
 
-A quick method to navigate through the different attributes and methods in a class is using the action file scructure, can be used with shortcut ⌘ + F12, or finding the action with ⌘ + A and typing file structure.
+A quick method to navigate through the different attributes and methods in a class is using the action file structure, can be used with shortcut **⌘ + F12**, or finding the action with **⌘ + A** and typing file structure.(快速导航到一个类中不同属性和方法的方式是使用 file structure 操作，你可以使用快捷键 **⌘ + F12** ，或者使用快捷键 **⌘ + A** 并输入 file structure 。)
 
-This feature, as many other, allows searching on it, allowing find quickly what we are looking for and place the caret accordingly.
+This feature, as many other, allows searching on it, allowing find quickly what we are looking for and place the caret accordingly.（这个功能还有一些其他的特点，它能够执行搜索操作，能够快速得到我们查找的东西并替换相应的字符。）
 
 ![](http://saulmm.github.io/resources/studio/look_for_methods.gif)
 
-Similarly, the window structure (⌘ + 7), shows the same information but in a permanent way.
+Similarly, the window structure (⌘ + 7), shows the same information but in a permanent way.（同样的,窗口结构(⌘+ 7),但在一个永久的方式显示了相同的信息。）
 
-## Show implementations and Super Method
+## Show implementations and Super Method（显示当前实现和父类方法）
 
-It's useful, sometimes, to show the current implementations of a superclass, interface or a method. Using ⌘ + B in the name of the class or method selected, allows, in a glance, check the current implementations navigate to them pressing the ENTER key.
+It's useful, sometimes, to show the current implementations of a superclass, interface or a method. Using **⌘ + B** in the name of the class or method selected, allows, in a glance, check the current implementations navigate to them pressing the ENTER key.（有时候，显示当前父类、接口或者一个方法的实现是非常有用的。选中类名或方法名并使用快捷键 **⌘ + B**，可以让我们一目了然的查看当前所有的实现，并且按ENTER键导航到这些实现里面。 ）
 
-Similarly, with the shortcut ⌘ + U in an implementation, we can navigate to the method or class which is being implemented.
+Similarly, with the shortcut **⌘ + U** in an implementation, we can navigate to the method or class which is being implemented.（同样的，在一个方法实现里面使用快捷键 **⌘ + U**，我们可以导航到正被实现的方法或者类中。）
 
 ![](http://saulmm.github.io/resources/studio/navigate_implementations_superclass.gif)
 
-## Next Highlighted Error - F2
+## Next Highlighted Error - F2（显示下一个错误 - F2）
 
-When Android Studio highlights some compilation errors, usually we use the mouse to scroll until their location and fix them.
+When Android Studio highlights some compilation errors, usually we use the mouse to scroll until their location and fix them.（当 Android Studio 高亮显示出一些编译错误，我们通常都是鼠标滚动，直到定位并解决这些错误。）
 
-With IntelliJ IDEA, we can place the care right on the left of the erros using the feature Next Highlighted Error (F2), avoiding leave your hands from your amazing keyboard.
+With IntelliJ IDEA, we can place the care right on the left of the errors using the feature Next Highlighted Error (F2), avoiding leave your hands from your amazing keyboard.（使用IntelliJ IDEA,使用显示下一个错误（F2）的功能，我们可以将光标放置在错误的左方,并且避免你的手离开键盘。 ）
 
 ![](http://saulmm.github.io/resources/studio/next_error.gif)
 
-First, F2 will iterate the caret over all the errors. Once they are solved, the cursor will be placed left of the warnings according to the current inspection profile.
+First, F2 will iterate the caret over all the errors. Once they are solved, the cursor will be placed left of the warnings according to the current inspection profile.（首先，F2会依次将光标插入到所有错误前面。一旦这些错误被解决，F2将会把光标放置在当前配置文件指定的下一个错误的左方。）
 
-## Las Edit Location - ⌘ + ⇧ + ⌫ - Last Edit Location
+## Last Edit Location - ⌘ + ⇧ + ⌫ (回到上一个编辑位置 - ⌘ + ⇧ + ⌫)
 
-When we are changing the code in classes with a huge number of lines, we tend to edit different sections of the class. Put some declarations, edit the body of a method, etc.
+When we are changing the code in classes with a huge number of lines, we tend to edit different sections of the class. Put some declarations, edit the body of a method, etc.（当修改一个代码行数众多的类时，我们趋于改变类中不同位置的代码。比如：放置一些声明，编辑一下方法体等。）
 
-It could be useful after add some declarations place the caret back to the previous edition without using your mouse.
+It could be useful after add some declarations place the caret back to the previous edition without using your mouse.（你添加声明后，不需要使用鼠标，光标将会回到你之前编辑的地方，这是很有用的。）
 
-The action Last Edit Location (⌘ + ⇧ + ⌫), does exactly that. Moves the caret to the previous edition location without changing the code.
+The action Last Edit Location (⌘ + ⇧ + ⌫), does exactly that. Moves the caret to the previous edition location without changing the code.（回到上一个编辑位置的操作 (⌘ + ⇧ + ⌫)，就得这么做。它在没有改变代码的情况下将鼠标移动到之前的编辑的位置。）
 
-！[](http://saulmm.github.io/resources/studio/last_edit_location.gif)
+![](http://saulmm.github.io/resources/studio/last_edit_location.gif)
 
 
-## Edition
+## Edition （编辑代码）
 
-### Replace instead append
+### Replace instead append（替换取代添加）
 
-When we are writing code, usually we use the completion dialog in order to add suggestions.
+When we are writing code, usually we use the completion dialog in order to add suggestions.（在写代码的时候，我们经常为了得到代码补全提示而使用补全对话框。）
 
-When we decide to add a suggestion pressing the ENTER key, the new sentence is added left of the old one, causing an error.
+When we decide to add a suggestion pressing the ENTER key, the new sentence is added left of the old one, causing an error.（当我们使用ENTER键决定采纳一个补全提示时，这句新的代码会被添加在旧代码的前面，到此产生一个错误。 ）
 
 ![](http://saulmm.github.io/resources/studio/editor_replace_instead_append.gif)
 
-If instead ENTER we press TAB, and if desired method call has the same number of parameters, the new code will be automatically set with the old parameters.
+If instead ENTER we press TAB, and if desired method call has the same number of parameters, the new code will be automatically set with the old parameters.（如果我们用TAB键取代ENTER键，而如果想要调用参数个数相同的方法，这些新代码将会自动取代旧的参数。）
 
-### Complete Current Statement - ⌘ + ⇧ + ENTER - Complete Current Statement
+### Complete Current Statement - ⌘ + ⇧ + ENTER （补全当前语句 - ⌘ + ⇧ + ENTER）
 
-Using a powerful IDE like Android Studio, there is no need to worry about some syntactic elements like braces or semicolons.
+Using a powerful IDE like Android Studio, there is no need to worry about some syntactic elements like braces or semicolons.（使用像 Android Studio 这样强大的 IDE，就没有必要去担心一些语法要素，如逗号或者分号。）
 
 ![](http://saulmm.github.io/resources/studio/editor_complete_current_statement.gif)
 
-There is an action called Complete Current Statement which automatically add the necessary elements in some contexts.
+There is an action called Complete Current Statement which automatically add the necessary elements in some contexts.（在某些情况下，调用补全当前语句的操作可以自动添加一些必要的元素。）
 
-### Add Selection To The Next Ocurrence - ⌘ + G
+### Add Selection To The Next Occurrence - ⌘ + G（添加选项到下一个位置 - ⌘ + G）
 
-In some situations, it could be very effective use multiple carets in order to change multiple sentences at the same time.
+In some situations, it could be very effective use multiple carets in order to change multiple sentences at the same time.（有些情况下，为了同时编辑多个语句，使用多个光标是非常高效的。）
 
-We can achieve it, with the feature Add Selection To The Next Ocurrence (⌘ + G), selecting the pattern where we want to add carets.
+We can achieve it, with the feature Add Selection To The Next Occurrence (⌘ + G), selecting the pattern where we want to add carets.（我们可以实现它，通过使用添加选项到下一个位置（⌘ + G）的功能，选定模板并移动光标添加到我们想要的地方。）
 
-Android Studio and IntelliJ IDEA give us even some cool editing tools in this feature, like cut and paste fragments of code, selection tools, etc.
+Android Studio and IntelliJ IDEA give us even some cool editing tools in this feature, like cut and paste fragments of code, selection tools, etc.（Android Studio 和 IntelliJ IDE 在这个功能上甚至给了我们很酷炫的编辑工具，像剪切和粘贴代码片段，选择工具等。）
 
 ![](http://saulmm.github.io/resources/studio/multiple_cursors.gif)
 
-A practical use could be, for instance, changes the binding of our views in an activity or fragment to replace them by ButterKnife annotations.
+A practical use could be, for instance, changes the binding of our views in an activity or fragment to replace them by ButterKnife annotations.（举一个使用场景，例如，在Activity或Fragment中使用ButterKnife框架的注解去改变我们绑定View的方式。）
 
-### Join Lines - ⌘ + ⇧ + J
+### Join Lines - ⌘ + ⇧ + J（合并成一行 - ⌘ + ⇧ + J）
 
-When there is a string concatenated multiple times in different lines, it could be useful to join those lines into a single one, with the action join lines we'll achieve a single sentence without having to worry about delete the concat operators.
+When there is a string concatenated multiple times in different lines, it could be useful to join those lines into a single one, with the action join lines we'll achieve a single sentence without having to worry about delete the concat operators.（当一个字符串在不同行上进行多次拼接时，使用合并成一行的操作显得非常有用，到最后我们会获得一个单行语句，并且不用担心需要删除大量的拼接符号。）
 
 ![](http://saulmm.github.io/resources/studio/join_lines.gif)
 
-### Check the parameters info - ⌘ + P
+### Check the parameters info - ⌘ + P（查看参数信息 - ⌘ + P）
 
-Using the completion for add a call to a method, Android Studio shows a popup with the required parameters, this popup hides after a few seconds.
+Using the completion for add a call to a method, Android Studio shows a popup with the required parameters, this popup hides after a few seconds.（使用补全方式添加一个方法的调用，Android Studio会显示一个调用方法所需参数的弹窗，这个弹窗会在几秒钟后消失隐藏。）
 
-Using the action Parameter Info with ⌘ + P, we can check what parameters are needed for the desired method call every time we want.
+Using the action Parameter Info with **⌘ + P**, we can check what parameters are needed for the desired method call every time we want.（这个查看参数信息的操作**⌘ + P**，在每次调用我们想要的方法时，都可以用来查看方法所需要的参数。）
 
 ![](http://saulmm.github.io/resources/studio/look_for_parameters.gif)
 
-### Surround With - ⌘ + T
+### Surround With - ⌘ + T（包装代码 - ⌘ + T）
 
-Sometimes, it could be interesting to wrap certain code for evaluating it with a condition, iterate through it or capture an exception.
+Sometimes, it could be interesting to wrap certain code for evaluating it with a condition, iterate through it or capture an exception.（有时,有趣的是它可能使用某些操作包装某特定的代码，像添加一个条件判断,遍历或捕获异常。）
 
-For that purpose, IntelliJ IDEA and in consequence, Android Studio, offers a tasty feature called surround with, operable with a dialog fired by the shortcut ⌘ + T.
+For that purpose, IntelliJ IDEA and in consequence, Android Studio, offers a tasty feature called surround with, operable with a dialog fired by the shortcut **⌘ + T**.
+（为此， IntelliJ IDEA 和 Android Studio 提供了一个 Surround with 的功能，在对话窗口通过快捷键 **⌘ + T** 启动。）
 
 ![](http://saulmm.github.io/resources/studio/surround_with.gif)
 
 With that dialog we can choose among different actions: conditions, loops, exceptions, etc, even live templates.
+（通过对话框我们可以从中选择不同的操作：条件、循环、异常等，甚至活动模板。）
 
-**Bonus:**
+**Bonus:**  （**福利:** ）
 
 If we fire that dialog in a XML context like a layout file, a few suggestions will be shown. With a bit of ingenuity and a live template we could, for example, wrap a view or viewgroup into another viewgroup, in a very easy way.
+（假设我们在打开XML布局文件的情况下启动这个对话框，它会显示一些提示信息。带着几分独创性和活动模板，我们可以用一个非常简单的方法做到，包装一个 View 或者一个 ViewGroup 到另一个 ViewGroup 中。）
 
 This is an example of a live template used with the surround with dialog to wrap views insider viewgroups.
+（这是一个用 surround with 窗口去将 View 包装到 ViewGroup 中的活动模板例子。）
 
 ![](http://saulmm.github.io/resources/studio/xml_live_template.png)
 
-## Move sentence up/down - ⌘ + ⇧ + ↑/↓
+## Move sentence up/down - ⌘ + ⇧ + ↑/↓ （上下移动语句 - ⌘ + ⇧ + ↑/↓）
 
-In order to move code is not needed to cut and paste sentences manually. The action Move Sentence Up/Down under the selection of a sentence of a group of ones, will be useful to move code in an effective way.
+In order to move code is not needed to cut and paste sentences manually. The action Move Sentence Up/Down under the selection of a sentence or a group of ones, will be useful to move code in an effective way.
+（这个功能是为了移动代码不需要手动复制粘贴。使用快捷键 **⌘ + ⇧ + ↑/↓** 来移动一行或一组选中语句，将是一中非常高效的代码移动方式。）
 
 ![](http://saulmm.github.io/resources/studio/move_up_down.gif)
 
-**Bonus**
+**Bonus:** （**福利:** ）
 
 This action could result useful editing layout files in XML. If we select a view, we could move it into an existing viewgroup in the same file.
+（在XML中，这些操作对编辑布局文件非常有帮助。假设选择一个视图，我们可以将它移动到同一个文件的存在的viewgroup中。）
 
-## Extend/Shrink selection - ⌥ + ↑/↓
+## Extend/Shrink selection - ⌥ + ↑/↓（扩展/收缩选择 - ⌥ + ↑/↓）
 
 Android Studio, thanks to IntelliJ IDEA inherits a mechanism really interesting whe we select code.
+（当我们选择代码时么，Android Studio和IntelliJ IDEA的继承机制确实有趣。）
 
 ![](http://saulmm.github.io/resources/studio/extend_shrink_selection.gif)
 
 Using the shorcut ⌥ + ↑/↓ in a specific section of the code, will extend or collapse the selection until the next point regarding the nearest scope.
+（在代码中的特定部分使用快捷⌥+↑/↓，将展开或折叠的选择内容，直到最近的范围下一个点。）
 
-## Completition
+## Completition （补全）
 
-**Live templates - ⌘ + J**
+**Live templates - ⌘ + J**（活动模板- ⌘ + J）
 
 The live templates are a powerful mechanism to avoid to write boilerplate code. They can be customized with a lot of different options in settings/editor/live templates.
 
@@ -269,7 +277,7 @@ Android Studio, by default, has a lot of live templates ready to use, both for c
 
 With the shortcut ⌘ + J we can show a dialog with the available live templates for the context where we are.
 
-## Debugging
+## Debugging（调试）
 
 ### Attach debugger to Android process
 
