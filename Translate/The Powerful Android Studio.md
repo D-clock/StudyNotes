@@ -261,41 +261,47 @@ Android Studio, thanks to IntelliJ IDEA inherits a mechanism really interesting 
 ![](http://saulmm.github.io/resources/studio/extend_shrink_selection.gif)
 
 Using the shorcut ⌥ + ↑/↓ in a specific section of the code, will extend or collapse the selection until the next point regarding the nearest scope.
-（在代码中的特定部分使用快捷⌥+↑/↓，将展开或折叠的选择内容，直到最近的范围下一个点。）
+（在代码中的特定部分使用快捷⌥+↑/↓，被选择的内容将被扩展或折叠，直到最近的范围下一个点。）
 
 ## Completition （补全）
 
 **Live templates - ⌘ + J**（活动模板- ⌘ + J）
 
 The live templates are a powerful mechanism to avoid to write boilerplate code. They can be customized with a lot of different options in settings/editor/live templates.
+（活动模板是一个避免编写样板代码的强大机制。在设置/编辑器/活动面板上，他们有很多不同的选项可以被自定义。）
 
 ![](http://saulmm.github.io/resources/studio/live_templates.gif)
 
 Android Studio, by default, has a lot of live templates ready to use, both for contexts like java and XML.
+（Android Studio默认有很多可供使用的活动模板，像java和XML的场景都可以使用。）
 
 ![](http://saulmm.github.io/resources/studio/available_live_templates.png)
 
 With the shortcut ⌘ + J we can show a dialog with the available live templates for the context where we are.
+（在当前场景中使用快捷键⌘ + J，我们可以看到一个带有可用活动模板的对话框。）
 
 ## Debugging（调试）
 
 ### Attach debugger to Android process
 
 It could be interesting avoid to run a debug session from Android Studio, (⌃ D), because we have tons of breakpoints configured, we want to force a state before init the debug session, etc.
-
+（避免在Android Studio上运行调试会话是非常有意思的，而是使用快捷键⌃ D，因为我们有很多断点配置，在初始化调试会话之前，我们想要状态重置。）
 ![](http://saulmm.github.io/resources/studio/attach_debugger.gif)
 
 For that, Android Studio includes an action called Attach Debugger to Android Process.
+（因此Android Studio包含了一个Attach Debugger to Android Process操作）
 
-## Conditional breakpoints
+## Conditional breakpoints（条件断点）
 
 In code which is called multiple times, it could be annoying if our breakpoint is called every time which is fire, and maybe, our purpose is to check that code in a specific situation.
+（在被多次调用的代码中，假如我们的断点每次都被启动调用，那将是很烦人的，可能，我们只想去检查特定情况下的代码。）
 
 We can configure the breakpoint for being fired only if a condition returns true, pressing the right click at the breakpoint.
+（在断点上点击右键，我们可以配置只有在条件返回true时，才会运行到当前指定的断点。）
 
 ![](http://saulmm.github.io/resources/studio/conditional_breakpoint.gif)
 
-The input will open the completion dialog with the context of the breakpoint while typing.
+The input will open the completion dialog with the context of the breakpoint while typing.（输入操作会激活弹出条件对话框，在断点场景中输入）
 
 ## Force an state
 
