@@ -282,14 +282,14 @@ With the shortcut ⌘ + J we can show a dialog with the available live templates
 
 ## Debugging（调试）
 
-### Attach debugger to Android process
+### Attach debugger to Android process（调试Android进程）
 
 It could be interesting avoid to run a debug session from Android Studio, (⌃ D), because we have tons of breakpoints configured, we want to force a state before init the debug session, etc.
 （避免在Android Studio上运行调试会话是非常有意思的，而是使用快捷键⌃ D，因为我们有很多断点配置，在初始化调试会话之前，我们想要状态重置。）
 ![](http://saulmm.github.io/resources/studio/attach_debugger.gif)
 
 For that, Android Studio includes an action called Attach Debugger to Android Process.
-（因此Android Studio包含了一个Attach Debugger to Android Process操作）
+（因此，Android Studio 提供了一个叫 Attach Debugger to Android Process 的操作。）
 
 ## Conditional breakpoints（条件断点）
 
@@ -303,27 +303,27 @@ We can configure the breakpoint for being fired only if a condition returns true
 
 The input will open the completion dialog with the context of the breakpoint while typing.（输入操作会激活弹出条件对话框，在断点场景中输入）
 
-## Force an state
+## Force an state（强制指定状态）
 
-When a breakpoint is fired, we usually check the state of the execution. Instead just read we can also write and force the state to enable a certain condition of our code.
+When a breakpoint is fired, we usually check the state of the execution. Instead just read we can also write and force the state to enable a certain condition of our code.（当一个断点被触发时，我们经常会去检查它的执行状态。我们不仅可以读还可以在代码中强制指定一个条件状态。）
 
 ![](http://saulmm.github.io/resources/studio/force_state.gif)
 
-With the action evaulate expression (also from the watches window) in adition to check the states of certain variables we can also write the desired value on them.
+With the action evaluate expression (also from the watches window) in edition to check the states of certain variables we can also write the desired value on them.（在编辑器的 evaluate expression (也包括watches窗口)操作中可以检查到某个特定变量的状态，我们也可以写入一个想要得到的值。）
 
-## Different types of breakpoints
+## Different types of breakpoints（不同类型的断点）
 
-Unsetting the button suspend tick in the breakpoint configuration dialog with a right click on a breakpoint, we could enable the option Log message to console.
+Unsetting the button suspend tick in the breakpoint configuration dialog with a right click on a breakpoint, we could enable the option Log message to console.（在右键弹出的断点配置对话框中去掉suspend按钮的打勾，我们可以启动 Log message to console 的选项。）
 
-Messages will be print under the tab console at the debug tool window (⌘ + 5).
+Messages will be print under the tab console at the debug tool window (⌘ + 5).（消息将在调试工具窗口的控制台选项卡下打印（⌘ + 5)）。）
 
 ![](http://saulmm.github.io/resources/studio/breakpoint_types.gif)
 
-Besides, we could print logs with an specific expression, which can be set at the same dialog under the Log Evaluated Expression option. Once again it will suggest sentences of your context with the completion dialog while you are typing the expression.
+Besides, we could print logs with an specific expression, which can be set at the same dialog under the Log Evaluated Expression option. Once again it will suggest sentences of your context with the completion dialog while you are typing the expression.（此外，我们也可以打印打印指定格式的日志，同样可以在对话框下设置Log Evaluated Expression选项。将再次建议你跟根据上文的句子在对话框中完成输入表达式。）
 
-## Conclusion
+## Conclusion（总结）
 
-Print the cheatsheet and hang it to your wall in order to have something to look during your gradle build times (You always could read your code btw! :D).
+Print the [cheatsheet](https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard_Mac.pdf) and hang it to your wall in order to have something to look during your gradle build times (You always could read your code btw! :D).（打印出这份[小抄](https://www.jetbrains.com/idea/docs/IntelliJIDEA_ReferenceCard_Mac.pdf)并将它贴到你的墙上，是为了在gradle构建的时间里有点东西可以看。（你总是在看着你的代码。）
 
 ![](http://saulmm.github.com/resources/studio/wall.jpg)
 
