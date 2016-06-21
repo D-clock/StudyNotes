@@ -4,19 +4,15 @@
 原文链接：http://saulmm.github.io/the-powerful-android-studio
 原文作者：[saulmm](https://github.com/saulmm)
 译者：[D_clock爱吃葱花](http://www.jianshu.com/users/ec95b5891948/latest_articles)
-校对：[]()
+校对：[汤涛](https://www.zhihu.com/people/tangtao)（微信公众号AndroidTrending管理员）、[Yasic](https://github.com/Yasic)（电子科技大学在校大学生，Diycode社区管理员）
 
 Android Studio is the official tool for Android development these days. Being developed at the top of project IntelliJ IDEA, takes into advantage (almost in its entirety) features of edition, debugging, analysis, refactor among many other categories for developing in an effective way.
 
-（我：Android Studio 作为 Android 开发的官方工具已经有一段时间了。它是在 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 项目的基础上进行开发的，考虑到它在开发过程中为编辑、调试、分析、重构等众多功能上提供了更高效的方式。）
-
-(校对：Android Studio 作为 Android 开发的官方工具已经有一段时间了。它是在 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 项目的基础上进行开发的，兼顾其编辑、调试、分析、重构等众多(几乎全部)优秀功能，使得开发更加高效。)
+(Android Studio 作为 Android 开发的官方工具已经有一段时间了。考虑到 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 在开发过程中为编辑、调试、分析、重构等众多功能上提供了更高效的方式，为此，Android Studio 选择在 IntelliJ IDEA 的基础上进行开发。)
 
 In the latest version (2.2 at the time of the writing), Android Studio includes a lot of improvements like the new UI editor, interaction with the new ConstraintLayout viewgroup and much more.
 
-（我：在最新版的 Android Studio 中（写这篇文章时，最新版本是2.2）包含了很多像新的 UI 编辑器、新的 ConstraintLayout 布局等更多交互方式上的改进。）
-
-(校对：在最新版的 Android Studio 中（写这篇文章时，最新版本是2.2）包含了很多改进， 比如 新的 UI 编辑器、新的 ConstraintLayout 布局交互方式等。)
+(在最新版的 Android Studio 中（写这篇文章时，最新版本是2.2）包含了很多改进， 比如 新的 UI 编辑器、新的 ConstraintLayout 布局交互方式等。)
 
 This article doesn't put the focus on covering these new features. In this one, I would like to give importance to the role that plays IntelliJ IDEA over Android Studio besides a few more tips that I use every day.
 
@@ -24,107 +20,124 @@ This article doesn't put the focus on covering these new features. In this one, 
 
 Because of my last talk given at the amazing event Exfest'16, the intention of this article is to serve as media support (there weren't slides) of the talk, and of course, a new excuse to write a new article. Let's get started!
 
-（我：因为我在惊人的事件Exfest'16给出最后一次谈话中，这篇文章的用意是作为媒体支持（有没有幻灯片）的谈话，当然，一个新的借口来写一个新的文章:) 。让我们开始吧！）
-
-（校对：这篇文章原本是我在[Exfest'16](http://exfest.es) 活动中的一篇演讲稿(没有PPT)，正好有新的借口来写一篇新文章:) 。让我们开始吧！）
+（这篇文章原本是我在[Exfest'16](http://exfest.es) 活动中的一篇演讲稿(没有PPT)，正好有新的借口来写一篇新文章:) 。让我们开始吧！）
 
 **Disclaimer（声明）**
 
 - All shorcuts shown in this article corresponds to the Mac OS X 10.5+
- 
-（我：本文展示的所有快捷键对应的 Mac OS X 10.5+ 操作系统）
 
-（校对：文中所有快捷键对应平台： Mac OS X 10.5+）
+（文中所有快捷键对应平台： Mac OS X 10.5+）
 
 - The green box which suggests the shotcut used at the bottom of the gifs is a nice plugin called Presentation Assistant, perfect for presentations and pair programming :).
 
-（我：绿盒子这表明在GIF文件的底部使用的快捷键是一个很好的插件，叫做演示助手，完美的演示文稿和结对编程:)。）
-
-（校对：用于展示快捷键操作的GIF图底部的那个绿框框，是一个很好用的插件，叫[Presentation Assistant](https://plugins.jetbrains.com/plugin/7345)，用作演示和结对编程非常完美:)。）
+（文中展示快捷键操作的GIF图底部的那个绿框框，是一个很好用的插件，叫[Presentation Assistant](https://plugins.jetbrains.com/plugin/7345)，对用于演示和结对编程是很棒的:)。）
 
 ## Miscellaneous（杂项）
 
 ### Avoid show the logcat automatically （避免自动显示Logcat窗口）
 
-It could be interesting to disable the expansion of the window Android Monitor during every time when run our app (since the default behavior on a run configuration is to show it).（每当我们运行应用程序的时候，禁用 Android Monitor 窗口的展开是一件很有意思的事情（因为在运行配置中默认是显示的）
-（校对：在运行应用的时候，最好禁止展开 Android Monitor 窗口（因为在运行配置中默认是展开的）
+It could be interesting to disable the expansion of the window Android Monitor during every time when run our app (since the default behavior on a run configuration is to show it).
 
-To achieve this, in the Run Configuration that we are using in our project just disable that tick at `Edit Configurations/Android Application/Miscellaneous.（为了避免自动显示Logcat窗口，在我们当前正在使用的 Project 中，去到 Edit Configurations -> Android Application -> Miscellaneous 路径下关掉下面的打勾。）
-（校对：为此，可以在我们当前的 Project 中，选择 Edit Configurations -> Android Application -> Miscellaneous 路径，关掉下面的勾选。）
+（校对：在运行应用的时候，最好禁止展开 Android Monitor 窗口（因为在运行配置中默认是展开的））
+
+To achieve this, in the Run Configuration that we are using in our project just disable that tick at `Edit Configurations/Android Application/Miscellaneous.
+
+（为此，可以在我们当前的 Project 中，选择 Edit Configurations -> Android Application -> Miscellaneous 路径，关掉下面的勾选。）
 
 ![](http://saulmm.github.io/resources/studio/disable_logcat_on_run.gif)
 
-### No tabs （不显示标签）
+### No tabs （不显示 Tab）
 
-(校对：建议不翻译tab，如果硬要翻译这类，与AS里的翻译保持一致, 下同)
+As Hadi Hadiri rightly says in his article, using tabs could result in the following hassles: loss of context, a valuable space in the editor consumed and the fact that also the interaction with tabs is used to require using the trackpad or the mouse.
 
-As Hadi Hadiri rightly says in his article, using tabs could result in the following hassles: loss of context, a valuable space in the editor consumed and the fact that also the interaction with tabs is used to require using the trackpad or the mouse.（正如 [Hadi Hadiri](https://twitter.com/hhariri) 在他的[文章](http://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/)中明确提到，使用标签可能导致以下麻烦：丢失上下文，消耗宝贵的编辑空间，并且这些标签是需要使用触控板或鼠标才能起到相互作用。）
-（校对：正如 [Hadi Hadiri](https://twitter.com/hhariri) 在他的[文章](http://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/)中明确提到，使用标签可能导致以下麻烦：丢失上下文，消耗宝贵的编辑空间，并且这些标签需要使用触控板或鼠标交互。）
+（正如 [Hadi Hadiri](https://twitter.com/hhariri) 在他的[文章](http://hadihariri.com/2014/06/24/no-tabs-in-intellij-idea/)中明确提到，使用这些 Tab 可能导致以下麻烦：丢失上下文，消耗宝贵的编辑空间，并且这些标签需要使用触控板或鼠标交互。）
 
-If you believe that tabs don't offer any benefit to you, disable them under settings/editor/tabs setting the Placement preference to None.（如果这些标签对你来说没有什么用处，你可以到 settings -> editor -> tabs 设置中，将 Placement 属性设置为 None。）
+If you believe that tabs don't offer any benefit to you, disable them under settings/editor/tabs setting the Placement preference to None.
+
+（如果这些 Tab 对你来说没有什么用处，可以到 settings -> editor -> tabs 设置中，将 Placement 属性设置为 None。）
 
 ![](http://saulmm.github.io/resources/studio/no_tabs.png)
 
-IntelliJ IDEA offers many ways to move effectively through the code without need tabs.（IntelliJ IDEA 提供了很多不需要使用到标签而又行之有效的方式。）
-（校对：IntelliJ IDEA 不需要使用标签也能高效地在代码间切换。）
+[IntelliJ IDEA](https://www.jetbrains.com/help/idea/2016.1/navigating-through-the-source-code.html) offers many ways to move effectively through the code without need tabs.
+
+（[IntelliJ IDEA](https://www.jetbrains.com/help/idea/2016.1/navigating-through-the-source-code.html) 不需要使用标签也能高效地在代码间进行切换。）
 
 ## Navigation（导航）
 
-One of the goals which the JetBrains team encourages to the users is that we have to use the mouse as less as possible. There are tons of actions and commands which allow working in a very effective way without leaving the hands from the keyboard gaining speed and accuracy.（[JetBrains](https://www.jetbrains.com/)团队的目标之一是鼓励用户尽可能减少使用鼠标的频率。有大量高效的操作命令，可以让你的双手在不需要离开键盘的情况下，变得更加高效精准。）
+One of the goals which the JetBrains team encourages to the users is that we have to use the mouse as less as possible. There are tons of actions and commands which allow working in a very effective way without leaving the hands from the keyboard gaining speed and accuracy.
+
+（[JetBrains](https://www.jetbrains.com/)团队的目标之一是鼓励用户尽可能减少使用鼠标的频率。有大量高效的操作命令，可以让你的双手在不需要离开键盘的情况下，变得更加高效精准。）
 
 ### Find classes, files, and actions （查找类、文件和操作）
 
-IntelliJ IDEA and, as the result, Android Studio offers solutions finding files, classes, actions.（IntelliJ IDEA，Android Studio提供了查找文件、类和操作的方案）
+IntelliJ IDEA and, as the result, Android Studio offers solutions finding files, classes, actions.
+
+（[IntelliJ IDEA](https://www.jetbrains.com/idea/) 以及 [Android Studio](http://tools.android.com/recent/androidstudio22preview1available) 都提供了查找文件、类和操作的方案。）
 
 **Search Everywhere - ⇧ + ⇧**（任意搜索 - ⇧ + ⇧）
 
-It shows a dialog for search all types of elements: classes, files, actions, etc. It's recommended to avoid this action and use the specific ones since search everywhere could be slower and expensive in term of your machine resources.（这里会显示一个搜索所有类型元素的对话框：可查找类、文件、操作等。这里建议尽量避免使用这个操作，因为任意查找会使得你宝贵的电脑资源变得更加缓慢。）
+It shows a dialog for search all types of elements: classes, files, actions, etc. It's recommended to avoid this action and use the specific ones since search everywhere could be slower and expensive in term of your machine resources.
+
+（它会显示一个搜索所有类型元素的对话框：可以用于查找类、文件、操作等。这里建议尽量避免使用这个操作，因为任意查找会使得你宝贵的电脑资源变得更加缓慢。）
 
 **Search types - ⌘ + O**（搜索类型 - ⌘ + O）
 
 It allows finding enumerations, classes, interfaces, etc fastly.
-（它可以让你快速的搜索到枚举类型，类，接口等。）
-（校对：的->地）
+
+（它可以让你快速地搜索到枚举类型，类，接口等。）
 
 **Search files - ⌘ + ⇧ + O**（搜索文件 - ⌘ + ⇧ + O）
 
 It allows finding every type of files, useful for XML files like layouts, resources, etc.
+
 （它可以让你搜索各种类型的文件，对像布局这样的xml文件，资源文件等同样有用。）
 
 **Search actions - ⇧ + ⌘ + o + A**（搜索操作 - ⇧ + ⌘ + o + A）
 
-It's possible to search and run actions from this feature, actions that live under menus, preferences, tool windows, etc, also suggests the shortcut of some actions, so, if you forget it you can fastly remind it searching for the action.（通过这个功能，你可能搜索并运行菜单、参数、工具窗口等，并且可以提出这些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索操作迅速的记起它们。）
-（校对：通过这个功能，你能搜索并打开菜单、设置、工具窗口等，并且会建议一些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索这些操作快速找到它们。）
+It's possible to search and run actions from this feature, actions that live under menus, preferences, tool windows, etc, also suggests the shortcut of some actions, so, if you forget it you can fastly remind it searching for the action.
+
+（通过这个功能，你能搜索并打开菜单、设置、工具窗口等，并且会给出一些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索这些操作从而快速找到它们。）
 
 ![](http://saulmm.github.io/resources/studio/look_for_stuff.gif)
 
-**Bonus:（福利：）**
+**Bonus:（优点：）**
 
-- It's not necessary to write the full name of whatever we are looking for. If we are searching for a class called CharacterDetailPresenter, we'll find it just typing CharacterPresenter.（这里不需要写出我们查找的每一个类的全称。假设我们正在查找CharacterDetailPresenter这个类，那就只需输入CharacterPresenter即可。）
-（校对：去掉 “这里”）
+- It's not necessary to write the full name of whatever we are looking for. If we are searching for a class called CharacterDetailPresenter, we'll find it just typing CharacterPresenter.
 
-- We can go to a specific line looking for classes (⌘ + O) writing a colon and the number of the line after the searched class name, for example: CharacterDetailPresenter:50.（搜索类（⌘ + O）的时候，我们可以通过在类名后面添加冒号和行数，来跳转类中指定的某一行里面，例如：CharacterDetailPresenter:50。）
-（校对：跳转到）
+（不需要写出我们查找的每一个类的全称。假设我们正在查找CharacterDetailPresenter这个类，那就只需输入CharacterPresenter即可。）
 
-- If we type / on the beginning of the text of the file that we are looking for, we'll find folders. For example, with /land, the dialog will suggest the folders related to landscape configurations.（如果我们搜索文件时，在文件名的开头加“/”，就可以找到与改名字相关的目录。例如：输入“/land”，对话框将会提示你和landscape相关的配置目录。）
-（校对：我们搜索文件时，在文件名的前面加“/”，就可以找到该名称对应的目录。例如：输入“/land”，对话框将会提示与landscape相关的配置目录。）
+- We can go to a specific line looking for classes (⌘ + O) writing a colon and the number of the line after the searched class name, for example: CharacterDetailPresenter:50.
 
-- We can filter the folder which contains the searched file, for example, values-es/strings.xml or values/strings.（我们可以筛选已被搜索出的文件的目录，例如，输入values-es/strings.xml 或者 values/strings。 ）
-（校对：我们可以筛选出包含搜索文件的目录，例如，输入 strings 我们得到 values-es/strings.xml 或者 values/strings.xml。 ）
+（搜索类（⌘ + O）的时候，我们可以通过在类名后面添加冒号和行数，来跳转到类中指定的某一行里面，例如：CharacterDetailPresenter:50。）
+
+- If we type / on the beginning of the text of the file that we are looking for, we'll find folders. For example, with /land, the dialog will suggest the folders related to landscape configurations.
+
+（我们搜索文件时，在文件名的前面加“/”，就可以找到该名称对应的目录。例如：输入“/land”，对话框将会提示与landscape相关的配置目录。）
+
+- We can filter the folder which contains the searched file, for example, values-es/strings.xml or values/strings.
+
+（我们可以筛选出包含搜索文件的目录，例如，输入 strings 可以看到 values-es/strings.xml 或者 values/strings.xml。 ）
 
 
 ### Project window - ⌘ + 1（项目窗口 - ⌘ + 1）
 
-For browsing through the project files, a nice solution is to use the project window which can be shown or hidden with the shortcut **⌘ + 1**.（对于浏览项目文件，有一个不错的方法是通过使用快捷键**⌘ + 1** 来隐藏或者显示我们的项目窗口。）
+For browsing through the project files, a nice solution is to use the project window which can be shown or hidden with the shortcut **⌘ + 1**.
+
+（对于浏览项目文件，有一个不错的方法是通过使用快捷键**⌘ + 1** 来隐藏或者显示我们的项目窗口。）
 
 ![](http://saulmm.github.com/resources/studio/show_panel_hide.gif)
 
-**Bonus:（福利：）**
+**Bonus:（优点：）**
 
-- With ⌘ + ⇧ + ⟵ / ⟶, we can modify the size of the focused panel without using the mouse.（通过快捷键 **⌘ + ⇧ + ⟵ / ⟶**，我们可以在不用鼠标的情况下去改变当前所关注窗口的尺寸大小。）
+- With ⌘ + ⇧ + ⟵ / ⟶, we can modify the size of the focused panel without using the mouse.
+
+（通过快捷键 **⌘ + ⇧ + ⟵ / ⟶**，我们可以在不用鼠标的情况下去改变当前所关注窗口的尺寸大小。）
 （校对：通过快捷键 **⌘ + ⇧ + ⟵ / ⟶**，我们不用鼠标就能改变当前焦点所在窗口的尺寸。）
 
-- We can perform searches writing the name of the file or folder that we are looking for right in the browser, it will highlight the matches and will restrict the positions selected with the arrows for these matches.（在浏览界面中，我们可以输入想要查找的文件或目录的名字来执行搜索操作，查询到的匹配项将高亮显示，并且可以通过箭头选择指定的匹配项。）
+- We can perform searches writing the name of the file or folder that we are looking for right in the browser, it will highlight the matches and will restrict the positions selected with the arrows for these matches.
+
+（在浏览界面中，我们可以输入想要查找的文件或目录的名字来执行搜索操作，查询到的匹配项将高亮显示，并且可以通过箭头选择指定的匹配项。）
+
 （校对：在浏览界面中，我们可以通过文件或文件夹的名称来搜索，搜索到的匹配项将高亮显示，并且可以通过方向键跳转到指定的匹配项。）
 
 **Jump to navigation bar - ⌘ + ↑ (跳转到导航栏 - ⌘ + ↑)**
