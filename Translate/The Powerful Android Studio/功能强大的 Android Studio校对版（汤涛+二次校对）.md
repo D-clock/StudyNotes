@@ -31,7 +31,7 @@ Because of my last talk given at the amazing event Exfest'16, the intention of t
 **Disclaimer（声明）**
 
 - All shorcuts shown in this article corresponds to the Mac OS X 10.5+
-- 
+ 
 （我：本文展示的所有快捷键对应的 Mac OS X 10.5+ 操作系统）
 
 （校对：文中所有快捷键对应平台： Mac OS X 10.5+）
@@ -39,6 +39,7 @@ Because of my last talk given at the amazing event Exfest'16, the intention of t
 - The green box which suggests the shotcut used at the bottom of the gifs is a nice plugin called Presentation Assistant, perfect for presentations and pair programming :).
 
 （我：绿盒子这表明在GIF文件的底部使用的快捷键是一个很好的插件，叫做演示助手，完美的演示文稿和结对编程:)。）
+
 （校对：用于展示快捷键操作的GIF图底部的那个绿框框，是一个很好用的插件，叫[Presentation Assistant](https://plugins.jetbrains.com/plugin/7345)，用作演示和结对编程非常完美:)。）
 
 ## Miscellaneous（杂项）
@@ -90,7 +91,7 @@ It allows finding enumerations, classes, interfaces, etc fastly.
 It allows finding every type of files, useful for XML files like layouts, resources, etc.
 （它可以让你搜索各种类型的文件，对像布局这样的xml文件，资源文件等同样有用。）
 
-**Search actions - ⇧ + ⌘ + o + A**（搜索操作 - ⇧ + ⌘ + o + A）呵呵呵哦呵呵呵
+**Search actions - ⇧ + ⌘ + o + A**（搜索操作 - ⇧ + ⌘ + o + A）
 
 It's possible to search and run actions from this feature, actions that live under menus, preferences, tool windows, etc, also suggests the shortcut of some actions, so, if you forget it you can fastly remind it searching for the action.（通过这个功能，你可能搜索并运行菜单、参数、工具窗口等，并且可以提出这些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索操作迅速的记起它们。）
 （校对：通过这个功能，你能搜索并打开菜单、设置、工具窗口等，并且会建议一些操作的快捷键。因此，当你忘记这些操作时，你可以通过搜索这些操作快速找到它们。）
