@@ -1,10 +1,9 @@
 # 功能强大的 Android Studio
 
-> 
-原文链接：http://saulmm.github.io/the-powerful-android-studio
-原文作者：[saulmm](https://github.com/saulmm)
-译者：[D_clock爱吃葱花](http://www.jianshu.com/users/ec95b5891948/latest_articles)
-校对：[汤涛](https://www.zhihu.com/people/tangtao)（就职于海豚浏览器，微信公众号AndroidTrending管理员）、[Yasic](https://github.com/Yasic)（电子科技大学在校大学生，Diycode社区管理员）
+> 原文链接：http://saulmm.github.io/the-powerful-android-studio
+> 原文作者：[saulmm](https://github.com/saulmm)
+> 译者：[D_clock爱吃葱花](http://www.jianshu.com/users/ec95b5891948/latest_articles)
+> 校对：[汤涛](https://www.zhihu.com/people/tangtao)（就职于海豚浏览器，微信公众号AndroidTrending管理员）、[Yasic](https://github.com/Yasic)（电子科技大学在校大学生，Diycode社区管理员）
 
 Android Studio is the official tool for Android development these days. Being developed at the top of project IntelliJ IDEA, takes into advantage (almost in its entirety) features of edition, debugging, analysis, refactor among many other categories for developing in an effective way.
 
