@@ -1,8 +1,11 @@
 # 功能强大的 Android Studio
 
 > 原文链接：http://saulmm.github.io/the-powerful-android-studio
+
 > 原文作者：[saulmm](https://github.com/saulmm)
+
 > 译者：[D_clock爱吃葱花](http://www.jianshu.com/users/ec95b5891948/latest_articles)
+
 > 校对：[汤涛](https://www.zhihu.com/people/tangtao)（就职于海豚浏览器，微信公众号AndroidTrending管理员）、[Yasic](https://github.com/Yasic)（电子科技大学在校大学生，Diycode社区管理员）
 
 Android Studio 作为 Android 开发的官方工具已经有一段时间了。考虑到 [IntelliJ IDEA](https://www.jetbrains.com/idea/) 在开发过程中为编辑、调试、分析、重构等众多功能上提供了更高效的方式，为此，Android Studio 选择在 IntelliJ IDEA 的基础上进行开发。在最新版的 Android Studio 中（写这篇文章时，最新版本是2.2）包含了很多改进， 比如 新的 UI 编辑器、新的 ConstraintLayout 布局交互方式等。本文的关注点不在于涵盖这些新特性。这次，我想介绍一些自己平时经常使用的 Android Studio 小技巧。这篇文章原本是我在[Exfest'16](http://exfest.es) 活动中的一篇演讲稿(没有PPT)，正好有新的借口来写一篇新文章:) 。让我们开始吧！
