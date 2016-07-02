@@ -28,6 +28,8 @@ AndroidManifest.xml： Android项目中的配置文件
 classes.dex： class字节码文件打包生成的dex文件
 resources.arsc： 资源文件压缩包
 
+http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653576954&idx=1&sn=6826647df10da83c645b2c49cf1326a6&scene=1&srcid=05123rKobhXex7zkEKrSel5t#wechat_redirect
+
 需要告诉大家文中的xml文件之类的都是加密的。
 
 经过前面的介绍，我们大致已经明白了一个Apk是怎么生成的，以及Apk的内部构造是怎样的。接下来就可以愉快的介绍一些逆向分析的工具，让大家闲暇之余可以自己好好的爽一把。
@@ -97,11 +99,24 @@ dex2-jar 逆向 dex 后生成的目录结构信息...
 
 http://jd.benow.ca/
 
+https://github.com/java-decompiler/jd-gui
+
 接着上面生成的 jar 包，那要如何查看他们的源代码呢，操作也是非常简单的。直接去到  下载名为 jd-gui 的工具，然后将生成的 jar 包拖曳进去即可查看到对应的源代码。
 
 对比混淆和没混淆过的目录结构的区别。
 
 可以将class文件转换成为Java文件
+
+## jadx
+
+一直还在维护的，好像可以反编译的同时又查看源码。
+
+https://github.com/skylot/jadx
+
+http://blog.csdn.net/coder_pig/article/details/51384286
+
+
+-------------------------分隔线，上面的作为上篇，下面的作为下篇---------------------------------------------------
 
 ## enjarify
 
@@ -131,9 +146,15 @@ Enjarify使用说明 http://wiki.wooyun.org/android:tools:enjarify
 
 ## ClassyShark
 
+ClassyShark 的两个比较主要的作用：1、分析一个apk的实现用了什么技术；2、检查apk中的方法数，可以查看到什么地方导致了65K方法；
 
+命令怎么用，可以参考官方文档，最主要的还是第一个分析apk的命令
 
-http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=402526638&idx=1&sn=bdd13a3cb722e72f67d4dcc1af0f620d#rd
+参考文章：
+
+http://www.jianshu.com/p/8e8b88ea2197
+
+http://w4lle.github.io/2016/02/15/ClassyShark%E2%80%94%E2%80%94%E5%88%86%E6%9E%90apk%E5%88%A9%E5%99%A8/#rd
 
 源码地址：https://github.com/google/android-classyshark
 
@@ -149,19 +170,43 @@ jar包下载地址：https://github.com/google/android-classyshark/releases
 
 ![](http://h.hiphotos.baidu.com/image/pic/item/ac6eddc451da81cb8e96acde5a66d016092431b4.jpg)
 
-http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125#代码框架解析
+介绍常用命令，它能够更强的还原代码的逻辑结构
+
+介绍它相对于其他逆向工具的好处
+
+http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125
 
 > 官方地址：https://bitbucket.org/mstrobel/procyon
 
 ## TcpDump
 
-http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125#代码框架解析
+需要root吗？支持http和https吗？
+
+http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125
 
 http://mrpeak.cn/blog/tutorial-tcpdump/
 
+tcpdump命令：http://liuzhigong.blog.163.com/blog/static/1782723752012851043396/
+
+用命令行装载 tcpdum，拉取打印文件。
+
+## Fiddler
+
+需要root吗？支持http和https吗？
+
+http://www.trinea.cn/android/android-network-sniffer/
+
+据说 Mac 下的童鞋使用 [Charles](https://www.charlesproxy.com/) 会更爽，额，我是 Windows 用户，Mac 下的童鞋就自行折腾吧。
+
 ## WireShark
 
-http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125#代码框架解析
+一些基本的操作和命令
+
+https://www.wireshark.org/
+
+http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125
+
+http://www.trinea.cn/android/tcpdump_wireshark/
 
 ## 总结
 
