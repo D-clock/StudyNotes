@@ -126,4 +126,6 @@ http://blog.csdn.net/coder_pig/article/details/51384286
 
 ## 总结
 
+对于逆向分析感兴趣的，可以去读那本 《Android软件安全与逆向分析》 或者经常去 看雪论坛 膜拜一些大神的奇技淫巧！
+
 [如何从技术上全面分析一款Android竞品？](http://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=402218810&idx=1&sn=1005ca3c2c1e391f7ce4a9851d2722eb&scene=0#wechat_redirect)
