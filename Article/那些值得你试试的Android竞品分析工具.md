@@ -255,6 +255,8 @@ enjarify 相较于 dex2jar 做了更多的优化处理，去避免在反编译�
 
 ## ClassyShark
 
+![](http://a.hiphotos.baidu.com/image/pic/item/83025aafa40f4bfb130da9490b4f78f0f63618c9.jpg)
+
 **工具名**：ClassyShark
 
 **官网**：http://classyshark.com/
@@ -267,51 +269,94 @@ enjarify 相较于 dex2jar 做了更多的优化处理，去避免在反编译�
 
 - Github markdown版本：https://github.com/borisf/classyshark-user-guide
 - Github PDF版本：https://github.com/google/android-classyshark/blob/master/CommandLine.pdf
+- 简书版本：http://www.jianshu.com/p/8e8b88ea2197
 
-**功能**：XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
+**功能**：可直接浏览 Apk，支持对.dex, .aar, .so，.apk, .jar, .class等文件的操作。
 
-ClassyShark 的两个比较主要的作用：1、分析一个apk的实现用了什么技术；2、检查apk中的方法数，可以查看到什么地方导致了65K方法；
+ClassyShark 同样是 Google 的亲儿子，利用它我们可以查看一些 Apk 使用了什么技术，方便作为我们开发的参考进行使用。同样以别人家的 Apk 作为分析的栗子，这回不拿微信了，因为从 Apk 分析上看，微信大部分基本上都是用自己的技术，参考价值可能不太大，换一个目标下手（常常逛知乎，就拿知乎了）。操作同样很傻瓜化，去到 ClassShark 的目录下执行如下命令即可：
 
-命令怎么用，可以参考官方文档，最主要的还是第一个分析apk的命令
+> java -jar ClassyShark.jar -open XXX.apk
 
-参考文章：
+可以看到如下界面
 
-http://www.jianshu.com/p/8e8b88ea2197
+![](http://a.hiphotos.baidu.com/image/pic/item/a6efce1b9d16fdfad755fcf3bc8f8c5494ee7bf5.jpg)
 
-http://w4lle.github.io/2016/02/15/ClassyShark%E2%80%94%E2%80%94%E5%88%86%E6%9E%90apk%E5%88%A9%E5%99%A8/#rd
+我们可以看到如下界面，左边包含了 xml 文件、 classes 文件以及 lib 目录及其所包含的 so 库。直接点击某个 xml 文件即可看到其文件内容，非常方便，不过这个工具的重点不在这里。直接点击 classes 目录下某个 dex 文件
+
+![](http://a.hiphotos.baidu.com/image/pic/item/4d086e061d950a7b0a466ad902d162d9f2d3c9bf.jpg)
+
+![](http://f.hiphotos.baidu.com/image/pic/item/8601a18b87d6277f63d7162520381f30e824fce2.jpg)
+
+从上面两张图中你可以看到知乎两个 dex 包所包含的方法数是多少（这个信息对我们可能没啥用），还有就是它使用了 Facebook 开源的图片加载库 Fresco、开源数据库 Realm、还有腾讯和新浪的一些SDK。
+
+如果我切换到另外一个 Tab，还可以看到更多的信息
+
+![](http://c.hiphotos.baidu.com/image/pic/item/7af40ad162d9f2d35dc505f2a1ec8a136227ccd2.jpg)
+
+它分别列出了 Apk 下每个包中的方法数，并且以直观的扇形图展示在右边。透过这里也可以看到知乎还用了 Apache 的开源库、Twitter 的移动开发检测平台 Fabric、 Rxjava、 Retrofit 以及 Square 出品的 OKIO 库。发现大厂引入的开源技术我们也可以进行相应的学习，并权衡考虑引入使用。
+
+最后补充一点，ClassyShark 能显示包中方法数的这个功能对我们开发自家产品还是有所帮助的，假设你引入大量的第三方库而导致了 Apk 超过了 65K 方法的限制，可以通过它来查找是哪些第三方库的方法过多导致。网上很多童鞋都推荐什么计算方法数的 AS 插件，个人觉得还不如用 ClassyShark 方便一些。
 
 ## TcpDump
 
-需要root吗？支持http和https吗？
+![](http://d.hiphotos.baidu.com/image/pic/item/4b90f603738da977da84af36b851f8198618e300.jpg)
 
-http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125
+**工具名**：TcpDump
 
-http://mrpeak.cn/blog/tutorial-tcpdump/
+**官网**：http://www.androidtcpdump.com/
 
-tcpdump命令：http://liuzhigong.blog.163.com/blog/static/1782723752012851043396/
+**下载地址**：http://www.androidtcpdump.com/android-tcpdump/downloads
 
-用命令行装载 tcpdum，拉取打印文件。
+**使用文档**：
 
-## Fiddler
+- Trinea版本：http://www.trinea.cn/android/tcpdump_wireshark/
+- MrPeak版本：http://mrpeak.cn/blog/tutorial-tcpdump/
 
-需要root吗？支持http和https吗？
+**功能**：对手机进行网络抓包，**前提是手机已经获取 Root 权限**。支持 HTTP 和 HTTPS ，还支持更多其他协议。
 
-http://www.trinea.cn/android/android-network-sniffer/
-
-据说 Mac 下的童鞋使用 [Charles](https://www.charlesproxy.com/) 会更爽，额，我是 Windows 用户，Mac 下的童鞋就自行折腾吧。
+Tcpdump 的使用就不介绍太多，具体怎么玩可以看上面 Trinea 和 MrPeak 的文章，已经写得很完善了。TcpDump 没有GUI，要查看抓包日志可以通过控制台窗口，但明显很鸡肋，为了方便还是把所有网络日志的抓包信息放到 pcap 文件里面，然后结合下面要介绍的 WireShark 进行操作。
 
 ## WireShark
 
-一些基本的操作和命令
+![](http://b.hiphotos.baidu.com/image/pic/item/14ce36d3d539b6000b2918aae150352ac75cb7c3.jpg)
 
-https://www.wireshark.org/
+**工具名**：WireShark
 
-http://blog.csdn.net/zhaokaiqiang1992/article/details/45038125
+**官网**：https://www.wireshark.org/
 
-http://www.trinea.cn/android/tcpdump_wireshark/
+**下载地址**：https://www.wireshark.org/#download
+
+**使用文档**：http://www.cnblogs.com/TankXiao/archive/2012/10/10/2711777.html （非常齐全的文档）
+
+**功能**：
+
+- 配置 Tcpdump 生成打 pcap 文件，进行分析；
+- 或者可以让电脑建立热点，手机连上电脑创建的热点进行抓包，这种方式处理起来更加方便灵活；
+
+![](http://d.hiphotos.baidu.com/image/pic/item/0bd162d9f2d3572ce29985c18213632762d0c3b0.jpg)
+
+WireShark 支持的协议也是非常多，可以看到我抓包出来的结构也非常详细，WireShark 的基本使用自行参考上面提供的链接即可，如果要玩得很深的话，需要对网络协议有一定深度的了解，童鞋们可以选择性自由发挥。
+
+## Fiddler
+
+**工具名**：Fiddler
+
+**官网**：http://www.telerik.com/fiddler
+
+**下载地址**：https://www.telerik.com/download/fiddler
+
+**使用文档**：直接参考 Trinea 的文章 http://www.trinea.cn/android/android-network-sniffer/ 即可。
+
+**功能**：支持对 HTTP 和 HTTPS 两种协议进行抓包。
+
+相比 Tcpdump ，它的好处在于手机不需要 Root，且有自己的 GUI 。不过它只支持 HTTP 和 HTTPS 两种协议。另外在使用时，手机也需要连接 WIFI 并设置好代理，具体查看 Trinea 的文章好了。抓包的过程还是能够获得不少信息的，我在抓了新浪微博和微信的包后感受是，微信的防抓包工作比以前做得好了，微博好像就没发现有什么变化，不知道是不是错觉。
+
+Fiddler 是本文介绍的最后一个工具，需要补充一下，请教了一些童鞋，它们说 Mac 下使用 [Charles](https://www.charlesproxy.com/) 会更爽，额，我是 Windows 用户，Mac 下的童鞋就自行折腾吧。
 
 ## 总结
 
-对于逆向分析感兴趣的，可以去读那本 《Android软件安全与逆向分析》 或者经常去 看雪论坛 膜拜一些大神的奇技淫巧！
+以上就是目前自己常用的一些竞品分析工具，有针对 Apk 反编译的，也有对应用进行网络抓包的。竞品分析并非只是帮助我们去了解竞争对手的产品，很多时候我只是出于对某些应用的技术实现感兴趣，而对其进行一番挖掘，挖掘的过程中你会发现某种新技术你可以开始学习了。例如像知乎使用 realm  数据库一样，其实 realm 正式版发布也没多久，不过既然大厂已经投入使用那有空也需要适当的跟进学习，说不定哪天 realm 真的干掉来了 SQLite 呢。
 
-[如何从技术上全面分析一款Android竞品？](http://mp.weixin.qq.com/s?__biz=MzA4MjU5NTY0NA==&mid=402218810&idx=1&sn=1005ca3c2c1e391f7ce4a9851d2722eb&scene=0#wechat_redirect)
+当然有时候除了学新技术，还派上了另一番用场，诸如某次同事对一个 App 的某些数据信息感兴趣，于是乎专门做了爬虫到网上爬取数据，后来我反编译了 App 后大致捋了一遍，发现该 App 在 raw 目录下其实已经放着一个本地数据库了，对比了数据基本差别无几，直接可以拿来用了。或者可以拿着这些工具来对自家应用动手，找找自家的产品哪里的安全性还不够，可以进行完善弥补，未尝不是一件好事。
+
+文章总结到此，本人水平有限，无法做过多深入讲解，感兴趣的竞品（逆向）分析技术的童鞋可以考虑看看 **《Android软件安全与逆向分析》** 或者逛逛**看雪论坛**膜拜一些大神的奇技淫巧！
