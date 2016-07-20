@@ -1,10 +1,16 @@
-# 面试复习知识点梳理
+# Android 学习知识点梳理
 
-面试面试，复习复习，摆好心态，做好准备，加油加油！
+Android 学习的知识点
 
-## 基础知识篇
+## Java 基础篇
 
-四大组件（Activity、Service、ContentProvider、BroadcastReceiver）
+封装、抽象、多态、接口、抽象类、泛型、反射、lamda表达式等等
+
+## Android 基础篇
+
+四大组件（Activity、Service、ContentProvider、BroadcastReceiver、Fragment）
+
+[Fragment 和 Activity 详细的生命周期](https://github.com/xxv/android-lifecycle)
 
 Material Design 控件的使用
 
@@ -24,7 +30,7 @@ Notification
 
 持久化：文件IO、SharePreferences、SQLite
 
-View、ViewGroup等相关知识点，保活事件分发啊，什么的等等
+View、ViewGroup等相关知识点，包括事件分发啊，什么的等等
 
 动画
 
@@ -38,6 +44,8 @@ Runtime Permission
 
 ## 算法数据结构篇
 
+两部分，一个是 Java 自身提供的数据结构，一个是 Android 经过优化后的数据结构
+
 会一些基础的算法和数据结构
 
 ## 源码框架篇（提升进阶）
@@ -49,6 +57,8 @@ Runtime Permission
 自定义View 和 动画的原理、以及自己动手实践（网上那些开源的各种各样的View和动画怎么做的）
 
 第三方开源框架使用，原理分析，源码分析
+
+butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577446&idx=1&sn=e1c12a2dc3d45babf66f86f4840bed2c&scene=1&srcid=0720PKnScilDs4ZhjwCe3tG8#wechat_redirect)
 
 加载图片框架（Picasso、Glide、Fresco）
 
@@ -64,7 +74,9 @@ Runtime Permission
 
 待补充吧
 
-## 优化篇
+## 性能优化篇
+
+性能优化的原理
 
 ListView之类的做局部刷新
 
@@ -132,6 +144,8 @@ Socket怎么玩，推送要怎么设计？
 
 ## 新知识篇
 
+了解一些主要的并不需要都去深入
+
 新出来的UI控件啊，例如ConstraitLayout之类的
 
 Android的新特性，例如JobScheduler、Doze Mode之类的
@@ -142,7 +156,7 @@ React Native
 
 Hybird
 
-了解一些主要的并不需要都去深入
+Hotfix
 
 Hook
 
