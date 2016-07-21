@@ -8,6 +8,13 @@ Android 学习的知识点
 
 - [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
 
+关于注解
+
+- [Android编译期代码生成之apt实践入门](https://segmentfault.com/a/1190000005100468)
+- [Android-APT-Framework](https://github.com/lizhaoxuan/Android-APT-Framework)
+
+- [反射、注解与依赖注入总结](http://sunfusheng.com/java/2016/04/12/reflection-annotation-injection.html)
+
 ## Android 基础篇
 
 四大组件（Activity、Service、ContentProvider、BroadcastReceiver、Fragment）
@@ -48,6 +55,8 @@ Runtime Permission
 
 两部分，一个是 Java 自身提供的数据结构，一个是 Android 经过优化后的数据结构
 
+[九大基础排序总结与对比](http://blog.csdn.net/amazing7/article/details/51603682)
+
 会一些基础的算法和数据结构
 
 ## 源码框架篇（提升进阶）
@@ -74,6 +83,8 @@ butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://m
 
 插件化（一些原理之类的）
 
+- [反射技术在android中的应用](http://blog.csdn.net/tiefeng0606/article/details/51700866)
+
 待补充吧
 
 ## 性能优化篇
@@ -97,6 +108,9 @@ ListView之类的做局部刷新
 ## 适配篇
 
 讲讲一些适配的问题和方案，讲讲如何排查得到结果的
+
+- [腾讯优测：Android5.0-6.0双卡适配指南](http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&mid=2651332309&idx=1&sn=f9e7270b1610ebf88488c06615bb6ed6&scene=0#wechat_redirect)
+- [腾讯优测：鹅厂专家详解Android N适配要点](http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&mid=2651332192&idx=1&sn=963420cb4ac8b9b86838fc9dc066cb73&scene=0#wechat_redirect)
 
 ## 编码篇
 
