@@ -4,7 +4,9 @@ Android 学习的知识点
 
 ## Java 基础篇
 
-封装、抽象、多态、接口、抽象类、泛型、反射、lamda表达式等等
+封装、抽象、多态、接口、抽象类、注解、泛型、反射、lamda表达式等等
+
+- [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
 
 ## Android 基础篇
 
