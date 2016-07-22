@@ -8,11 +8,10 @@ Android 学习的知识点
 
 - [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
 
-关于注解
+### 注解和反射
 
 - [Android编译期代码生成之apt实践入门](https://segmentfault.com/a/1190000005100468)
 - [Android-APT-Framework](https://github.com/lizhaoxuan/Android-APT-Framework)
-
 - [反射、注解与依赖注入总结](http://sunfusheng.com/java/2016/04/12/reflection-annotation-injection.html)
 
 ## Android 基础篇
@@ -41,7 +40,23 @@ Notification
 
 View、ViewGroup等相关知识点，包括事件分发啊，什么的等等
 
-动画
+### 动画
+
+[Android 动画基础](http://www.lightskystreet.com/2015/05/23/anim_basic_knowledge/)
+
+[如何学习 Android Animation？](https://segmentfault.com/a/1190000004354609)
+
+[Android属性动画完全解析(上)，初识属性动画的基本用法](http://blog.csdn.net/guolin_blog/article/details/43536355)
+[Android属性动画完全解析(中)，ValueAnimator和ObjectAnimator的高级用法](http://blog.csdn.net/guolin_blog/article/details/43816093)
+[Android属性动画完全解析(下)，Interpolator和ViewPropertyAnimator的用法](http://blog.csdn.net/guolin_blog/article/details/44171115)
+
+[浅析Android动画（一），View动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5295976.html)
+[浅析Android动画（二），属性动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5312482.html)
+[浅析Android动画（三），自定义Interpolator与TypeEvaluator](http://www.cnblogs.com/wondertwo/p/5327586.html)
+
+[当数学遇上动画(一)](http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/)
+[当数学遇上动画(二)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-2/)
+[当数学遇上动画(三)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-3/)
 
 Binder 和 Service要怎么做
 
@@ -122,9 +137,15 @@ ListView之类的做局部刷新
 
 [从BaseActivity与BaseFragment的封装谈起](http://blog.csdn.net/tyk0910/article/details/51355026)
 
+### 设计模式
+
+[别人再问你设计模式，叫他看这篇文章](http://www.jasongj.com/design_pattern/summary/)
+[设计模式合集](http://www.jasongj.com/tags/Design-Pattern/)
+
 对封装、抽象的理解（泛型、抽象类、接口这些怎么看？）
 
 编码结构，MVC、MVP、MVVM的真正理解和应用
+
 
 ## 网络协议篇
 
