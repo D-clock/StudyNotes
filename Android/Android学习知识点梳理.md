@@ -6,6 +6,8 @@ Android 学习的知识点
 
 封装、抽象、多态、接口、抽象类、注解、泛型、反射、lamda表达式等等
 
+### 异步
+
 - [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
 
 ### 注解和反射
@@ -42,21 +44,23 @@ View、ViewGroup等相关知识点，包括事件分发啊，什么的等等
 
 ### 动画
 
-[Android 动画基础](http://www.lightskystreet.com/2015/05/23/anim_basic_knowledge/)
+- [Android 动画基础](http://www.lightskystreet.com/2015/05/23/anim_basic_knowledge/)
+- [Android动画系列](http://www.lightskystreet.com/categories/Android/Android%E5%8A%A8%E7%94%BB/)
+- [如何高效的学习Android动画](http://www.lightskystreet.com/2015/08/31/android_how_to_lean_anim_efficiently/)
 
-[如何学习 Android Animation？](https://segmentfault.com/a/1190000004354609)
+- [如何学习 Android Animation？](https://segmentfault.com/a/1190000004354609)
 
-[Android属性动画完全解析(上)，初识属性动画的基本用法](http://blog.csdn.net/guolin_blog/article/details/43536355)
-[Android属性动画完全解析(中)，ValueAnimator和ObjectAnimator的高级用法](http://blog.csdn.net/guolin_blog/article/details/43816093)
-[Android属性动画完全解析(下)，Interpolator和ViewPropertyAnimator的用法](http://blog.csdn.net/guolin_blog/article/details/44171115)
+- [Android属性动画完全解析(上)，初识属性动画的基本用法](http://blog.csdn.net/guolin_blog/article/details/43536355)
+- [Android属性动画完全解析(中)，ValueAnimator和ObjectAnimator的高级用法](http://blog.csdn.net/guolin_blog/article/details/43816093)
+- [Android属性动画完全解析(下)，Interpolator和ViewPropertyAnimator的用法](http://blog.csdn.net/guolin_blog/article/details/44171115)
 
-[浅析Android动画（一），View动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5295976.html)
-[浅析Android动画（二），属性动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5312482.html)
-[浅析Android动画（三），自定义Interpolator与TypeEvaluator](http://www.cnblogs.com/wondertwo/p/5327586.html)
+- [浅析Android动画（一），View动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5295976.html)
+- [浅析Android动画（二），属性动画高级实例探究](http://www.cnblogs.com/wondertwo/p/5312482.html)
+- [浅析Android动画（三），自定义Interpolator与TypeEvaluator](http://www.cnblogs.com/wondertwo/p/5327586.html)
 
-[当数学遇上动画(一)](http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/)
-[当数学遇上动画(二)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-2/)
-[当数学遇上动画(三)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-3/)
+- [当数学遇上动画(一)](http://hujiaweibujidao.github.io/blog/2016/05/26/when-math-meets-android-animation/)
+- [当数学遇上动画(二)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-2/)
+- [当数学遇上动画(三)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-3/)
 
 Binder 和 Service要怎么做
 
