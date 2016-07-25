@@ -189,10 +189,6 @@ Socket怎么玩，推送要怎么设计？
 
 ## 新知识篇
 
-了解一些主要的并不需要都去深入
-
-新出来的UI控件啊，例如ConstraitLayout之类的
-
 Android的新特性，例如JobScheduler、Doze Mode之类的
 
 Rxjava
