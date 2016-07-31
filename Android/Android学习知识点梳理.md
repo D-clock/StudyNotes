@@ -120,6 +120,8 @@ ListView之类的做局部刷新
 
 缓存机制要怎么设计
 
+[缓存更新的套路](http://coolshell.cn/articles/17416.html)
+
 如何使用一些工具帮助我们排查问题做优化方案啊
 
 [腾讯优测：使用Android Studio的Inspact Code做静态代码分析](http://mp.weixin.qq.com/s?__biz=MzAxMzYyNDkyNA==&mid=2651332108&idx=1&sn=0595ccab1516fcff06f15a8f8f50f8ea&scene=0)
