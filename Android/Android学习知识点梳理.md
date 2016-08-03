@@ -148,6 +148,8 @@ ListView之类的做局部刷新
 [别人再问你设计模式，叫他看这篇文章](http://www.jasongj.com/design_pattern/summary/)
 [设计模式合集](http://www.jasongj.com/tags/Design-Pattern/)
 
+几大设计原则分别是！！！！
+
 对封装、抽象的理解（泛型、抽象类、接口这些怎么看？）
 
 编码结构，MVC、MVP、MVVM的真正理解和应用
