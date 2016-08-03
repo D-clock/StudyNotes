@@ -102,6 +102,7 @@ butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://m
 
 插件化（一些原理之类的）
 
+- [包建强：Android插件化技术概述](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112486&idx=1&sn=84231b09641646f2e371fcade88c323d&scene=1&srcid=0725r9QJRNpBzMdP2FF7neqM#wechat_redirect)
 - [反射技术在android中的应用](http://blog.csdn.net/tiefeng0606/article/details/51700866)
 
 待补充吧
