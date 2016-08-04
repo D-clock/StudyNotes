@@ -9,6 +9,7 @@ Android 学习的知识点笔记
 ### 异步
 
 - [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
+- [你见过这样的单例模式吗？](http://mp.weixin.qq.com/s?__biz=MzA5MzI3NjE2MA==&mid=2650236548&idx=1&sn=b6c2e406b0b67874cd55a5638ef3c3c0&scene=1&srcid=0802DVnCp2PMe1pSKoFYu4ay#wechat_redirect)
 
 ### 注解和反射
 
@@ -155,6 +156,7 @@ ListView之类的做局部刷新
 
 编码结构，MVC、MVP、MVVM的真正理解和应用
 
+- [腾讯Bugly：一步一步实现Android的MVP框架](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577546&idx=1&sn=e10be159645a3aa8f6d6f209420fb412&scene=1&srcid=07289Nbf5unjDpiRXxvw1G90#wechat_redirect)
 
 ## 网络协议篇
 
