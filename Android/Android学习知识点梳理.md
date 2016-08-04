@@ -114,6 +114,8 @@ butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://m
 
 ListView之类的做局部刷新
 
+- [Facebook新闻页ListView优化](http://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua)
+
 把应用开发中需要注意的性能问题进行罗列，并写出响应的分析和解决方案
 
 保活怎么做
