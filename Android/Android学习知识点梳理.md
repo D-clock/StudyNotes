@@ -63,6 +63,12 @@ View、ViewGroup等相关知识点，包括事件分发啊，什么的等等
 - [当数学遇上动画(二)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-2/)
 - [当数学遇上动画(三)](http://hujiaweibujidao.github.io/blog/2016/05/27/When-Math-meets-Android-Animation-3/)
 
+### 自定义View
+
+[自定义View怎么学](http://mp.weixin.qq.com/s?__biz=MzAxNzMxNzk5OQ==&mid=2649484578&idx=1&sn=891d1d65209aa5302b064577799b06c1&scene=1&srcid=0808sWI4HJXfSFvHbfqMbPmL#rd)
+
+自定义View 和 动画的原理、以及自己动手实践（网上那些开源的各种各样的View和动画怎么做的）
+
 Binder 和 Service要怎么做
 
 RecyclerView（ListView、GridView优化已经很久了）
@@ -84,8 +90,6 @@ Runtime Permission
 [Android开源项目推荐之「图片加载到底哪家强」](http://mp.weixin.qq.com/s?__biz=MzA4NTQwNDcyMA==&mid=2650661949&idx=1&sn=09aececd879bd8b4635e6a63a8249808&scene=1&srcid=0623mjQ2J6NG4S71GI2cpEJU#wechat_redirect)
 
 系统机制的分析
-
-自定义View 和 动画的原理、以及自己动手实践（网上那些开源的各种各样的View和动画怎么做的）
 
 第三方开源框架使用，原理分析，源码分析
 
