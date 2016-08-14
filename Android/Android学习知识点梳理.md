@@ -105,6 +105,15 @@ butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://m
 
 总线框架（EventBus）
 
+Apk 动态加载
+
+- [Android apk动态加载机制的研究](http://blog.csdn.net/singwhatiwanna/article/details/22597587)
+
+Android 换肤技术
+
+- [Android换肤技术总结](http://blog.zhaiyifan.cn/2015/09/10/Android%E6%8D%A2%E8%82%A4%E6%8A%80%E6%9C%AF%E6%80%BB%E7%BB%93/)
+- [Android主题换肤 无缝切换](http://www.jianshu.com/p/af7c0585dd5b)
+
 插件化（一些原理之类的）
 
 - [包建强：Android插件化技术概述](http://mp.weixin.qq.com/s?__biz=MzA3ODg4MDk0Ng==&mid=2651112486&idx=1&sn=84231b09641646f2e371fcade88c323d&scene=1&srcid=0725r9QJRNpBzMdP2FF7neqM#wechat_redirect)
@@ -114,9 +123,9 @@ butterknife [深入理解 ButterKnife，让你的程序学会写代码](http://m
 
 ## 性能优化篇
 
-性能优化的原理
+性能优化的原理，相关的指标
 
-ListView之类的做局部刷新
+ListView做局部刷新
 
 - [Facebook新闻页ListView优化](http://blog.aaapei.com/article/2015/02/facebookxin-wen-ye-listviewyou-hua)
 
@@ -163,6 +172,7 @@ ListView之类的做局部刷新
 编码结构，MVC、MVP、MVVM的真正理解和应用
 
 - [腾讯Bugly：一步一步实现Android的MVP框架](http://mp.weixin.qq.com/s?__biz=MzA3NTYzODYzMg==&mid=2653577546&idx=1&sn=e10be159645a3aa8f6d6f209420fb412&scene=1&srcid=07289Nbf5unjDpiRXxvw1G90#wechat_redirect)
+- [DataBinding最佳实践](http://www.jianshu.com/p/1fcda521fcda)
 
 ## 网络协议篇
 
