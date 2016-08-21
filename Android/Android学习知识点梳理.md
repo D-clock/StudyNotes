@@ -17,6 +17,8 @@ Android 学习的知识点笔记
 - [Android-APT-Framework](https://github.com/lizhaoxuan/Android-APT-Framework)
 - [反射、注解与依赖注入总结](http://sunfusheng.com/java/2016/04/12/reflection-annotation-injection.html)
 
+多线程、同步
+
 ## Android 基础篇
 
 四大组件（Activity、Service、ContentProvider、BroadcastReceiver、Fragment）
@@ -37,11 +39,11 @@ Notification
 
 [Android N 带来的新通知栏](https://www.rogerblog.cn/2016/04/15/Android-N-Introducing-upgraded-Notifications/)
 
-多线程、同步
-
 持久化：文件IO、SharePreferences、SQLite
 
 View、ViewGroup等相关知识点，包括事件分发啊，什么的等等
+
+[五年Android开发，让我“刻骨铭心”的那些坑](http://mp.weixin.qq.com/s?__biz=MzIwNjQ1NzQxNA==&mid=2247483658&idx=1&sn=451a063ef5bf3f3689e5af6153762fcd&scene=1&srcid=081912jNN9TJLf5BeZgdjTvl#rd)
 
 ### 动画
 
