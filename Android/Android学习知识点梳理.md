@@ -25,6 +25,8 @@ Android 学习的知识点笔记
 
 [Fragment 和 Activity 详细的生命周期](https://github.com/xxv/android-lifecycle)
 
+[ContentProvider简介](http://mp.weixin.qq.com/s?__biz=MzI1NjEwMTM4OA==&mid=2651232011&idx=1&sn=d43e2fd554d85ea0b5bfe0d36f63e865&scene=1&srcid=0814PK0EJzmaLGk4JBDQUtsa#rd)
+
 Material Design 控件的使用
 
 布局
