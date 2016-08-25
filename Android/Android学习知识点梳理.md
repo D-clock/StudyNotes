@@ -6,6 +6,8 @@ Android 学习的知识点笔记
 
 封装、抽象、多态、接口、抽象类、注解、泛型、反射、lamda表达式等等
 
+[浅谈 Java 字符串（String, StringBuffer, StringBuilder）](https://segmentfault.com/a/1190000002683782)
+
 ### 异步
 
 - [Java并发编程：volatile关键字解析](http://www.cnblogs.com/dolphin0520/p/3920373.html)
