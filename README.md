@@ -1,3 +1,3 @@
 # StudyNotes
 
-个人入门学习的时候随手写的笔记，不一定适合你看哈，谨慎关注！
+Just my study note , don't watch , don't star , don't fork ! thanks!
